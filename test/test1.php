@@ -5,7 +5,7 @@ $data = array(
     'b' => 'apple',
 );
 
-$cond = 'not a > 30 or b === "apple" or 1 ==== 1';
+$cond = 'not a > 30 or b === "apple" or 1 === 1';
 
 
 require_once __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'autoloader' . DIRECTORY_SEPARATOR . 'ConditionEvaluatorAutoloader.php';
